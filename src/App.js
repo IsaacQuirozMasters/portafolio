@@ -1,8 +1,10 @@
-import NavBar from "./components/NavBar";   //importamos la funcion y la llamamos en la app
+import NavBar from "./components/NavBar";  
+import Home from "./components/Home";  //importamos la funcion y la llamamos en la app
 function App() {
   return (
     <div>
       <NavBar />
+      <Home />
     </div>
   );
 }

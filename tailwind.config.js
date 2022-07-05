@@ -4,7 +4,12 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily:{
-      signature:["Tilt Prism"],
+      signature:"'Tilt Prism'",
+      body:"'Poppins', sans-serif",
+      heading:'"Montserrat"',
+      mono:"Menlo, monospace",
+      display:"'Bebas Neue'",
+      code:"'Fira Code'"
     }
   },
   plugins: [],
