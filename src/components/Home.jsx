@@ -12,10 +12,10 @@ const Home = () => {
             <p className='text-gray-500 py-4 max-w-md'>
             I am a programmer with three years of experience developing applications using various technologies. My main focus has been on web development, and I've gained strong skills in JavaScript, React, Tailwind CSS, Node.js, PHP, Laravel, MySQL, Java, Python, and MongoDB.            </p>
             <div>
-                <button className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500'>
+                <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                     Portfolio
-                    <span>
-                    <MdOutlineKeyboardArrowRight/>
+                    <span className='group-hover:rotate-90 duration-300'>
+                    <MdOutlineKeyboardArrowRight size={25} className='ml-1'/>
                     </span>
                 </button>
             </div>
