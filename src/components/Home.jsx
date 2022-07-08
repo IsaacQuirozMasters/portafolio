@@ -1,6 +1,8 @@
 import React from 'react'
 import avatar from '../assets/avatar.png'
-import {HiArrowNarrowRight, MdOutlineKeyboardArrowRight} from 'react-icons/md'
+import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
+import{Link} from "react-scroll"
+
 const Home = () => {
   return (
     <div name="home" className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white">
@@ -12,12 +14,12 @@ const Home = () => {
             <p className='text-gray-500 py-4 max-w-md'>
             I am a programmer with three years of experience developing applications using various technologies. My main focus has been on web development, and I've gained strong skills in JavaScript, React, Tailwind CSS, Node.js, PHP, Laravel, MySQL, Java, Python, and MongoDB.            </p>
             <div>
-                <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+                <Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                     Portfolio
                     <span className='group-hover:rotate-90 duration-300'>
                     <MdOutlineKeyboardArrowRight size={25} className='ml-1'/>
                     </span>
-                </button>
+                </Link>
             </div>
         </div>
         <div>

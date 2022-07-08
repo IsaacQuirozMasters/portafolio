@@ -3,14 +3,18 @@ import Home from "./components/Home";  //importamos la funcion y la llamamos en 
 import SocialLinks from "./components/SocialLinks";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
+import Experience from "./components/Experience";
+import Contact from "./components/Contact";
 function App() {
   return (
     <div>
       <NavBar />
       <Home />
       <About />
-      <SocialLinks/>
-      <Portfolio/>
+      <Portfolio />
+      <Experience />
+      <Contact/>
+      <SocialLinks />
     </div>
   );
 }
