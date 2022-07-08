@@ -8,12 +8,14 @@ const About = () => {
           <p className='text-4xl font-bold inline border-b-4'>About</p>
         </div>
         <p className='text-xl mt-20'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis itaque dignissimos esse. Maiores, cupiditate laudantium, sed perferendis rem, culpa repellendus quam vitae sunt libero sint! Non quae reiciendis placeat earum cum, magnam necessitatibus enim officiis perspiciatis quam exercitationem saepe neque minima cupiditate, omnis dolor nam sit veniam! Officiis, neque facilis.
+        Soy un programador con tres años de experiencia en el desarrollo de aplicaciones utilizando diversas tecnologías. Mi enfoque principal se ha centrado en el desarrollo web, y he adquirido habilidades sólidas en JavaScript, React, Tailwind CSS, Node.js, PHP, Laravel, MySQL, Java, Python y MongoDB.
+A lo largo de mi carrera, he demostrado una gran capacidad para enfrentar desafíos técnicos y resolver problemas de manera eficiente. Soy un apasionado de la programación y siempre estoy buscando nuevas oportunidades para aprender y crecer profesionalmente.
+
         </p>
         <br />
       <p className='text-xl' >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis itaque dignissimos esse. Maiores, cupiditate laudantium, sed perferendis rem, culpa repellendus quam vitae sunt libero sint! Non quae reiciendis placeat earum cum, magnam necessitatibus enim officiis perspiciatis quam exercitationem saepe neque minima cupiditate, omnis dolor nam sit veniam! Officiis, neque facilis.
-      </p>
+      Mi experiencia laboral previa incluye proyectos en los que he trabajado tanto de forma independiente como en equipos multidisciplinarios. He participado en el desarrollo de aplicaciones web desde la etapa de planificación y diseño hasta la implementación y el mantenimiento posterior. Me siento cómodo trabajando en entornos ágiles y colaborativos, donde la comunicación efectiva y la capacidad para adaptarse rápidamente son fundamentales.
+Además de mis habilidades técnicas, también tengo un enfoque orientado a los resultados y una fuerte ética de trabajo. Soy capaz de gestionar múltiples tareas y prioridades, manteniendo siempre un alto nivel de calidad en mi trabajo.             </p>
       </div>
     </div>
   )
