@@ -1,7 +1,8 @@
 import React from 'react'
 import ee from '../assets/Reactfolio/LaravelSitio.png'
 import port from '../assets/Reactfolio/portfolio.png'
-import home from '../assets/Reactfolio/home.png'
+import viteApp from '../assets/Reactfolio/vite-app.png'
+import viteApi from '../assets/Reactfolio/vite-api.png'
 import zooapp from '../assets/Reactfolio/ZOOAPP.png'
 const Portfolio = () => {
     const portfolio = [
@@ -25,8 +26,13 @@ const Portfolio = () => {
         },
         {
             id:4,
-            src: home,  
-            link: 'https://github.com/azulcolor/nova-up.git'
+            src: viteApp ,  
+            link: 'https://github.com/IsaacQuirozMasters/vite-project.git'
+        },
+        {
+            id:5,
+            src: viteApi ,
+            link: 'https://github.com/IsaacQuirozMasters/vite-api.git'
         }
     ]
   return (

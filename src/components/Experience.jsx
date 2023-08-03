@@ -11,7 +11,7 @@ import php from '../assets/Experience/php.png'
 import ts from '../assets/Experience/ts.png'
 import nest from '../assets/Experience/nest.jpg'
 import express from '../assets/Experience/express.png'
-// import potsgress from '../assets/Experience/potsgress.png'
+import potsgress from '../assets/Experience/potsgress.png'
 import react from '../assets/Experience/react.png'
 import Tailwind from '../assets/Experience/tail.png'
 const Experience = () => {
