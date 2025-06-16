@@ -4,7 +4,7 @@ import SocialLinks from "./components/SocialLinks";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
-import Contact from "./components/Contact";
+import WhatsAppContact from "./components/whatsapp-contact";
 function App() {
   return (
     <div>
@@ -13,8 +13,8 @@ function App() {
       <About />
       <Portfolio />
       <Experience />
-      <Contact/>
       <SocialLinks />
+      <WhatsAppContact />
     </div>
   );
 }

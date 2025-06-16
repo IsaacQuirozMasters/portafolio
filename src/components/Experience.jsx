@@ -4,12 +4,20 @@ import JavaScript from '../assets/Experience/JavaScript-logo.png'
 import CSS from '../assets/Experience/css.png'
 import github from '../assets/Experience/github.png'
 import html from '../assets/Experience/html.png'
-import laravel from '../assets/Experience/laravel.png'
+import vue from '../assets/Experience/vue.svg'
 import mysql from '../assets/Experience/mysql.png'
 import nodejs from '../assets/Experience/nodejs-1-logo-png-transparent.png'
-import php from '../assets/Experience/php.png'
+import next from '../assets/Experience/Next.js Icon.svg'
+import nuxt from '../assets/Experience/icon-green.svg'
+import prisma from '../assets/Experience/Prisma-LightSymbol.svg'
+import figma from '../assets/Experience/Figma-logo.svg'
+import sass from '../assets/Experience/Daco_1407237.png'
+import gsc from '../assets/Experience/pngegg.png'
+import gtm from '../assets/Experience/Google Tag Manager.svg'  
+import lighthouse from '../assets/Experience/cdnlogo.com_google-lighthouse-icon-may-2019.svg'
+import ganalitycs from '../assets/Experience/cdnlogo.com_analytics.svg'
 import ts from '../assets/Experience/ts.png'
-import nest from '../assets/Experience/nest.jpg'
+import pinia from '../assets/Experience/Pinialogo.svg'
 import express from '../assets/Experience/express.png'
 import react from '../assets/Experience/react.png'
 import Tailwind from '../assets/Experience/tail.png'
@@ -44,6 +52,32 @@ const Experience = () => {
             
         },
         {
+            id:7,
+            src:next, 
+            title:'Next JS',
+            style:'shadow-white'
+            
+        },
+        {
+            id:8,
+            src:vue, 
+            title:'Vue JS',
+            style:'shadow-teal-500'
+            
+        },
+        {
+            id:18,
+            src:nuxt, 
+            title:'Nuxt JS',
+            style:'shadow-teal-500'
+        },
+        {
+            id:17,
+            src:pinia,    
+            title:'Pinia',
+            style:'shadow-teal-500'
+        },
+        {
             id:5,
             src:Tailwind, 
             title:'Tailwind CSS',
@@ -57,20 +91,6 @@ const Experience = () => {
             style:'shadow-green-700'
             
         },
-         {
-             id:7,
-             src:laravel, 
-             title:'Laravel',
-             style:'shadow-red-700'
-            
-         },
-         {
-             id:8,
-             src:php, 
-             title:'PHP',
-             style:'shadow-sky-950'
-            
-         },
         {
             id:9,
             src:github, 
@@ -100,16 +120,53 @@ const Experience = () => {
             style:'shadow-sky-900'
         },
         {
-            id:13,
-            src:express,
-            title:'Express',
+            id:14,
+            src:prisma,
+            title:'Prisma ORM',
             style:'shadow-sky-900'
         },
         {
-            id:14,
-            src:nest,
-            title:'Nest JS',
-            style:'shadow-sky-900'
+            id:15,
+            src:figma,
+            title:'Figma',
+            style:'shadow-red-500'
+        },
+        {
+            id:13,
+            src:express,
+            title:'Express',
+            style:'shadow-gray-500'
+        },
+            
+            {
+                id:16,
+                src:sass,
+                title:'Sass',
+                style:'shadow-pink-500'
+            },
+            {
+                id:19,
+                src:gsc,
+                title:'GSC',
+                style:'shadow-red-500'
+            },
+            {
+                id:20,
+                src:gtm,
+                title:'Google Tag Manager',
+                style:'shadow-red-500'
+            },
+        {  
+            id:21,
+            src: ganalitycs,
+            title:'G Anlytics',
+            style:'shadow-red-500'
+        },
+        {
+            id:22,
+            src:lighthouse,
+            title:'LightHouse',
+            style:'shadow-red-500'
         }
     ]
   return (

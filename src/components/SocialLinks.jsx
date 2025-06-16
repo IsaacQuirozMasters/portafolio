@@ -11,7 +11,7 @@ const SocialLinks = () => {
                 Linkedin<FaLinkedin size={30}/>
                 </>
             ),
-            href:'https://www.linkedin.com/in/isaac-quiroz-madrigal-406733255/',
+            href:'https://www.linkedin.com/in/isaac-quiroz-madrigal/',
             style:'rounded-tr-md'
         },
         {
@@ -41,7 +41,7 @@ const SocialLinks = () => {
                 Resume<BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href:'/resume.pdf',
+            href:'/Resume_Isaac_Quiroz_Desarrollador_Frontend.pdf',
             style:'rounded-br-md',
             download:true
         }
